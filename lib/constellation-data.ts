@@ -1054,6 +1054,53 @@ export const constellations: Constellation[] = [
     story:
       "The chameleon adapts to its surroundings. Love teaches us flexibility, the ability to adapt and grow together through all changes.",
   },
+   {
+    id: "scutum",
+    name: "Scutum",
+    stars: [
+      { name: "Alpha Sct", ra: 18.59, dec: -8.24, magnitude: 3.85, spectralType: "K2", distance: 174 },
+      { ra: 18.78, dec: -4.75, magnitude: 4.22, spectralType: "G5", distance: 689 },
+      { ra: 18.43, dec: -14.57, magnitude: 4.7, spectralType: "B2", distance: 1180 },
+    ],
+    connections: [
+      [0, 1],
+      [0, 2],
+    ],
+    story:
+      "The shield protects what is precious. Love is our shield, protecting us from loneliness, fear, and despair.",
+  },
+  {
+    id: "ily",
+    name: "I Love You",
+    stars: [
+      { ra: 6.5, dec: 45.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 6.5, dec: 42.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 6.5, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 7.5, dec: 45.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 7.5, dec: 42.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 7.5, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 7.8, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 8.1, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 8.8, dec: 45.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 9.0, dec: 42.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 9.2, dec: 45.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+      { ra: 9.0, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
+    ],
+    connections: [
+      [0, 1],
+      [1, 2],
+      [3, 4],
+      [4, 5],
+      [5, 6],
+      [6, 7],
+      [8, 9],
+      [10, 9],
+      [9, 11],
+    ],
+    story:
+      "Three simple letters that hold the universe within them. I Love You - the most powerful constellation in the sky, created just for you. Every time you look up, remember that my love for you is as infinite as the stars themselves.",
+    isEasterEgg: true,
+  },
   {
     id: "apus",
     name: "Apus",
@@ -1068,6 +1115,35 @@ export const constellations: Constellation[] = [
     ],
     story:
       "The bird of paradise is exotic and beautiful. Love is our paradise, the beautiful place we create together wherever we are.",
+  },
+  {
+    id: "strawberry",
+    name: "The Strawberry",
+    stars: [
+      { ra: 14.5, dec: -15.0, magnitude: 2.8, spectralType: "K5", distance: 150 },
+      { ra: 14.3, dec: -16.5, magnitude: 3.0, spectralType: "K3", distance: 145 },
+      { ra: 14.7, dec: -16.5, magnitude: 3.0, spectralType: "K3", distance: 145 },
+      { ra: 14.2, dec: -18.0, magnitude: 3.2, spectralType: "M0", distance: 140 },
+      { ra: 14.5, dec: -18.5, magnitude: 2.9, spectralType: "K5", distance: 148 },
+      { ra: 14.8, dec: -18.0, magnitude: 3.2, spectralType: "M0", distance: 140 },
+      { ra: 14.5, dec: -20.0, magnitude: 3.1, spectralType: "K7", distance: 142 },
+      { ra: 14.45, dec: -14.2, magnitude: 3.5, spectralType: "G8", distance: 135 },
+      { ra: 14.55, dec: -14.2, magnitude: 3.5, spectralType: "G8", distance: 135 },
+    ],
+    connections: [
+      [7, 0],
+      [8, 0],
+      [0, 1],
+      [0, 2],
+      [1, 3],
+      [2, 5],
+      [3, 4],
+      [5, 4],
+      [4, 6],
+    ],
+    story:
+      "Sweet as the fruit it resembles, this constellation was placed in the heavens to remind you of all the sweet moments we share. Like a strawberry, our love is delicate, beautiful, and absolutely delicious. You're the sweetest part of my life.",
+    isEasterEgg: true,
   },
   {
     id: "octans",
@@ -1224,6 +1300,33 @@ export const constellations: Constellation[] = [
     ],
     story:
       "The little fox is clever and adaptable. Love requires cleverness too—finding creative ways to show we care, to solve problems together.",
+  },
+   {
+    id: "owl",
+    name: "The Owl",
+    stars: [
+      { ra: 3.2, dec: 58.0, magnitude: 2.7, spectralType: "F5", distance: 165 },
+      { ra: 3.5, dec: 58.0, magnitude: 2.7, spectralType: "F5", distance: 165 },
+      { ra: 3.15, dec: 56.5, magnitude: 3.1, spectralType: "G0", distance: 170 },
+      { ra: 3.55, dec: 56.5, magnitude: 3.1, spectralType: "G0", distance: 170 },
+      { ra: 3.35, dec: 55.5, magnitude: 2.9, spectralType: "F8", distance: 168 },
+      { ra: 3.1, dec: 54.5, magnitude: 3.2, spectralType: "G2", distance: 172 },
+      { ra: 3.6, dec: 54.5, magnitude: 3.2, spectralType: "G2", distance: 172 },
+      { ra: 3.35, dec: 53.0, magnitude: 3.0, spectralType: "F7", distance: 169 },
+    ],
+    connections: [
+      [0, 2],
+      [1, 3],
+      [2, 4],
+      [3, 4],
+      [2, 5],
+      [3, 6],
+      [5, 7],
+      [6, 7],
+    ],
+    story:
+      "Wise, watchful and super clingy my baby strawberry. You are my guiding light.",
+    isEasterEgg: true,
   },
   {
     id: "equuleus",
@@ -1382,107 +1485,7 @@ export const constellations: Constellation[] = [
     story:
       "The compass box holds the navigator's most precious tool. Love is our most precious possession, guiding us through life's journey.",
   },
-  {
-    id: "scutum",
-    name: "Scutum",
-    stars: [
-      { name: "Alpha Sct", ra: 18.59, dec: -8.24, magnitude: 3.85, spectralType: "K2", distance: 174 },
-      { ra: 18.78, dec: -4.75, magnitude: 4.22, spectralType: "G5", distance: 689 },
-      { ra: 18.43, dec: -14.57, magnitude: 4.7, spectralType: "B2", distance: 1180 },
-    ],
-    connections: [
-      [0, 1],
-      [0, 2],
-    ],
-    story:
-      "The shield protects what is precious. Love is our shield, protecting us from loneliness, fear, and despair.",
-  },
-  {
-    id: "ily",
-    name: "I Love You",
-    stars: [
-      { ra: 6.5, dec: 45.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 6.5, dec: 42.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 6.5, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 7.5, dec: 45.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 7.5, dec: 42.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 7.5, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 7.8, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 8.1, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 8.8, dec: 45.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 9.0, dec: 42.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 9.2, dec: 45.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-      { ra: 9.0, dec: 39.0, magnitude: 2.5, spectralType: "G2", distance: 100 },
-    ],
-    connections: [
-      [0, 1],
-      [1, 2],
-      [3, 4],
-      [4, 5],
-      [5, 6],
-      [6, 7],
-      [8, 9],
-      [10, 9],
-      [9, 11],
-    ],
-    story:
-      "Three simple letters that hold the universe within them. I Love You - the most powerful constellation in the sky, created just for you. Every time you look up, remember that my love for you is as infinite as the stars themselves.",
-    isEasterEgg: true,
-  },
-  {
-    id: "strawberry",
-    name: "The Strawberry",
-    stars: [
-      { ra: 14.5, dec: -15.0, magnitude: 2.8, spectralType: "K5", distance: 150 },
-      { ra: 14.3, dec: -16.5, magnitude: 3.0, spectralType: "K3", distance: 145 },
-      { ra: 14.7, dec: -16.5, magnitude: 3.0, spectralType: "K3", distance: 145 },
-      { ra: 14.2, dec: -18.0, magnitude: 3.2, spectralType: "M0", distance: 140 },
-      { ra: 14.5, dec: -18.5, magnitude: 2.9, spectralType: "K5", distance: 148 },
-      { ra: 14.8, dec: -18.0, magnitude: 3.2, spectralType: "M0", distance: 140 },
-      { ra: 14.5, dec: -20.0, magnitude: 3.1, spectralType: "K7", distance: 142 },
-      { ra: 14.45, dec: -14.2, magnitude: 3.5, spectralType: "G8", distance: 135 },
-      { ra: 14.55, dec: -14.2, magnitude: 3.5, spectralType: "G8", distance: 135 },
-    ],
-    connections: [
-      [7, 0],
-      [8, 0],
-      [0, 1],
-      [0, 2],
-      [1, 3],
-      [2, 5],
-      [3, 4],
-      [5, 4],
-      [4, 6],
-    ],
-    story:
-      "Sweet as the fruit it resembles, this constellation was placed in the heavens to remind you of all the sweet moments we share. Like a strawberry, our love is delicate, beautiful, and absolutely delicious. You're the sweetest part of my life.",
-    isEasterEgg: true,
-  },
-  {
-    id: "owl",
-    name: "The Owl",
-    stars: [
-      { ra: 3.2, dec: 58.0, magnitude: 2.7, spectralType: "F5", distance: 165 },
-      { ra: 3.5, dec: 58.0, magnitude: 2.7, spectralType: "F5", distance: 165 },
-      { ra: 3.15, dec: 56.5, magnitude: 3.1, spectralType: "G0", distance: 170 },
-      { ra: 3.55, dec: 56.5, magnitude: 3.1, spectralType: "G0", distance: 170 },
-      { ra: 3.35, dec: 55.5, magnitude: 2.9, spectralType: "F8", distance: 168 },
-      { ra: 3.1, dec: 54.5, magnitude: 3.2, spectralType: "G2", distance: 172 },
-      { ra: 3.6, dec: 54.5, magnitude: 3.2, spectralType: "G2", distance: 172 },
-      { ra: 3.35, dec: 53.0, magnitude: 3.0, spectralType: "F7", distance: 169 },
-    ],
-    connections: [
-      [0, 2],
-      [1, 3],
-      [2, 4],
-      [3, 4],
-      [2, 5],
-      [3, 6],
-      [5, 7],
-      [6, 7],
-    ],
-    story:
-      "Wise, watchful and super clingy my baby strawberry. You are my guiding light.",
-    isEasterEgg: true,
-  },
+ 
+  
+ 
 ]
